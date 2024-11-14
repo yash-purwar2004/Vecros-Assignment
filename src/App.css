@@ -1,0 +1,17 @@
+canvas {
+  height: 100vh !important;
+  margin-left: 275px;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 180px;
+  left: 60px;
+  z-index: 1; /* Ensures clicks go through to the canvas */
+}
+
+.gradient{
+  background: -webkit-linear-gradient(#000000, #3a3a3a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
